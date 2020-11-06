@@ -1,0 +1,176 @@
+html{
+    scroll-behavior: smooth;
+}
+head {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  background-color: #f2f2f2;
+  display: block;
+}
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  margin-top: 0 auto;
+  height: 50px;
+  background-color: #333;
+  overflow: visible;
+}
+#navbarLinks {
+  margin-right: 20%;
+  float: right;
+}
+
+#navbar a {
+  float: left;
+  font-size: 16px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: #f2f2f2;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+#about-me-section {
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  font-size: 2em;
+}
+
+#projects-section {
+  background-color: white;
+  height: 80vh;
+  width: 100%;
+  padding: 72px 0;
+  margin: 0;
+}
+section {
+  transition-duration: 1s;
+  display: block;
+}
+#avatar {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+span {
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 300;
+}
+h2 {
+  font-weight: 500;
+}
+p {
+  font-weight: 300;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+    .hairline-down-arrow {
+        border: 1px solid #f1f1f1;
+        border-radius: 50%;
+        width: 65px;
+        height: 65px;
+        position: relative;
+        background-color: #333;
+        cursor: pointer;
+        margin-top: 70%;
+        margin-left: 50%;
+        
+      }
+      .hairline-down-arrow:after {
+        content: "";
+        position: absolute;
+        top: 4%;
+        left: 54%;
+        width: 30px;
+        height: 30px;
+        border-width: 0px 2px 2px 0px;
+        transform: rotate(46deg) translate(-50%) skew(10deg, 10deg);
+        transform-origin: left;
+        border-style: solid;
+        border-color: #f1f1f1;
+      }
+    button:hover{
+        background-color: gray;
+       
+   
+    }
+
+footer {
+  background-color: #333;
+  color: #f1f1f1;
+  height: 40px;
+  font-size: 13px;
+  padding:5px 0 0 5px;
+}
+footer a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+#navbar a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.project-grid {
+  border-style: solid;
+  padding: 50px 50px 50px 50px;
+  width: 150px;
+  background-color: #333;
+}
+.project-grid {
+  text-align: center;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  #about-me-section {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #about-me-section {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-height: 900px){
+    .hairline-down-arrow {
+        margin-top:50%
+    }
+}
+@media screen and (max-height: 800px){
+    .hairline-down-arrow {
+        margin-top:30%
+    }
+}
+@media screen and (max-height: 700px){
+    .hairline-down-arrow {
+        margin-top:10%;
+    }
+}
