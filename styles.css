@@ -83,37 +83,7 @@ p {
   padding: 0 15px;
 }
 
-    .hairline-down-arrow {
-        border: 1px solid #f1f1f1;
-        border-radius: 50%;
-        width: 65px;
-        height: 65px;
-        position: relative;
-        background-color: #333;
-        cursor: pointer;
-        margin-top: 70%;
-        margin-left: 50%;
-        
-      }
-      .hairline-down-arrow:after {
-        content: "";
-        position: absolute;
-        top: 4%;
-        left: 54%;
-        width: 30px;
-        height: 30px;
-        border-width: 0px 2px 2px 0px;
-        transform: rotate(46deg) translate(-50%) skew(10deg, 10deg);
-        transform-origin: left;
-        border-style: solid;
-        border-color: #f1f1f1;
-      }
-    button:hover{
-        background-color: gray;
-       
    
-    }
-
 footer {
   background-color: #333;
   color: #f1f1f1;
@@ -158,19 +128,4 @@ footer a {
   #about-me-section {
     font-size: 1.5em;
   }
-}
-@media screen and (max-height: 900px){
-    .hairline-down-arrow {
-        margin-top:50%
-    }
-}
-@media screen and (max-height: 800px){
-    .hairline-down-arrow {
-        margin-top:30%
-    }
-}
-@media screen and (max-height: 700px){
-    .hairline-down-arrow {
-        margin-top:10%;
-    }
 }
