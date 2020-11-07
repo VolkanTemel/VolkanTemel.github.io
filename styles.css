@@ -1,5 +1,5 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 head {
   display: none;
@@ -13,9 +13,9 @@ body {
   display: block;
 }
 #navbar {
-    position: fixed;
-    top: 0px;
-    width: 100%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
   margin-top: 0 auto;
   height: 50px;
   background-color: #333;
@@ -54,6 +54,7 @@ body {
   padding: 72px 0;
   margin: 0;
 }
+
 section {
   transition-duration: 1s;
   display: block;
@@ -83,13 +84,12 @@ p {
   padding: 0 15px;
 }
 
-   
 footer {
   background-color: #333;
   color: #f1f1f1;
   height: 40px;
   font-size: 13px;
-  padding:5px 0 0 5px;
+  padding: 5px 0 0 5px;
 }
 footer a {
   text-decoration: none;
@@ -106,16 +106,22 @@ footer a {
   color: black;
 }
 
-.project-grid {
-  border-style: solid;
-  padding: 50px 50px 50px 50px;
-  width: 150px;
-  background-color: #333;
-}
-.project-grid {
+#project-grid {
   text-align: center;
+  background-color: #333;
   color: #f1f1f1;
-  cursor: pointer;
+  height: 500px;
+  width: 1000px;
+  overflow: scroll;
+  border-style: solid;
+  display: none;
+}
+
+#hide {
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
 }
 
 @media screen and (max-width: 900px) {

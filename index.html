@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biography</title>
- <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
- 
+
     <div id="navbar">
         <div id="navbarLinks">
             <a href="#about-me-section">About Me</a>
-            <a href="#projects-section">My Projects</a>
+            <a href="#projects-section" onclick=()>My Projects</a>
         </div>
     </div>
     <section id="about-me-section" tabindex="-1">
-        <div class ="container about-me-messsage">
+        <div class="container about-me-messsage">
             <img id="avatar" src="avatar.jpg">
             <h1>Hello, My name is Volkan</h1>
             <p>I am social media director</p>
-            <p>I'm learning javascript as a hobby <span id="colorPicker"> </span></p>
-           
-            <button onclick="window.location.href='#projects-section'"  class="hairline-down-arrow" ></button>
+            <p>and I'm learning javascript as a hobby </p>
         </div>
-        
+
     </section>
     <section id="projects-section" tabindex="-1">
         <div class="container">
-        <h2>My Projects</h2>
-        <div class="projects">
-           <div class="project-grid">
-                <p>Coming Soon</p>
+            <h2>My Projects</h2>
+            <div class="projects">
+                <button id="hide" onclick=openForm()>Show</button>
+                <div id="project-grid">
+                    <script
+                        src="http://gist-it.appspot.com/github.com/VolkanTemel/My-first-react-app/blob/main/first-app/src/questions.js"></script>
+                </div>
+
             </div>
         </div>
-    </div>
     </section>
     <footer>
         <div>
@@ -45,6 +48,8 @@
             <a href="https://www.linkedin.com/in/volkan-temel-9647801a3/" target="_blank">Linkedin</a>
         </div>
     </footer>
+
     <script src="/app.js"></script>
 </body>
+
 </html>
