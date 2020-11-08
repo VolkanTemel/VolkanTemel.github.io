@@ -37,7 +37,17 @@ body {
   padding-right: 15px;
   text-align: center;
 }
-
+#html-border, #javascript-border, #css-border, #react-border{
+  width: 0%;
+  height: 3px;
+  padding: 0;
+  border-style: none;
+  border-radius: 15px;
+  margin:3px;
+  text-align: center;
+  
+  
+}
 #about-me-section {
   align-items: center;
   height: 100vh;
@@ -46,14 +56,55 @@ body {
   font-size: 2em;
 }
 
-#projects-section {
-  background-color: white;
+#skills-section {
+  background-color: #555;
   height: 80vh;
   width: 100%;
   padding: 72px 0;
-  margin: 0;
 }
 
+.skills-label{
+  color: turquoise;
+  font-size: 20px;
+  font-weight: 500;
+width:150px;
+  letter-spacing: 0.1em;
+  padding:0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  text-align: right;
+  vertical-align: super;
+  margin-left: 20%;
+}
+.skills-section p{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: turquoise;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.skills-section{
+display: block;
+}
+
+.skill-border{
+ height: 15px;
+border-style: solid;
+border-color: turquoise;
+border-radius: 15px;
+background-color: #333;
+width: 50%;
+}
+
+.skills-label, .skill-border{
+  display: inline-block;
+  
+}
 
 section {
   transition-duration: 1s;
@@ -104,17 +155,6 @@ footer a {
 #navbar a:hover {
   background-color: #ddd;
   color: black;
-}
-
-#project-grid {
-  text-align: center;
-  background-color: #333;
-  color: #f1f1f1;
-  height: 500px;
-  width: 1000px;
-  overflow: scroll;
-  border-style: solid;
-  display: none;
 }
 
 #hide {
