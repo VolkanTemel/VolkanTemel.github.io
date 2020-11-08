@@ -56,15 +56,6 @@ body {
   font-size: 2em;
 }
 
-.category{
-  display: none;
-  font-size: 150px; 
-  font-weight: 800;
-  margin-left: 50%;
-  color:transparent;
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-
 #skills-section {
   background-color: #555;
   height: 80vh;
@@ -76,14 +67,14 @@ body {
   color: turquoise;
   font-size: 20px;
   font-weight: 500;
-width:150px;
+width: 20%;
   letter-spacing: 0.1em;
   padding:0;
   margin-right: 15px;
   margin-bottom: 15px;
   text-align: right;
   vertical-align: super;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 .skills-section p{
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
@@ -92,6 +83,7 @@ width:150px;
   margin-bottom: 5%;
   margin-left: 20%;
   margin-right: 20%;
+  width: 60%;
   color: turquoise;
   font-weight: 400;
   font-size: 20px;
@@ -177,10 +169,41 @@ footer a {
   #about-me-section {
     font-size: 1.8em;
   }
+
+  .skills-label{
+    margin-left:0;
+    margin-right: 0;
+    letter-spacing: 0;
+    width: 20%;
+    }
+    .skill-border{
+      margin-right: 0;
+      margin-left: 0;
+      width: 70%;
+    }
+    
+}
+@media screen and (max-width: 618px){
+  .skills-label{
+  margin-left:0;
+  font-size: 15px;
+ 
+}
+.skills-section p{
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
 }
 
 @media screen and (max-width: 500px) {
   #about-me-section   {
     font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 420px) {
+  .skills-label{
+    font-size: 10px;
   }
 }
